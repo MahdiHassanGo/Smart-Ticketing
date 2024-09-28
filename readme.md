@@ -1,3 +1,4 @@
+##Live Server:https://mahdihassango.github.io/Smart-Ticketing/app.html
 # Bus Booking / Smart Ticket System
 
 This is a web-based bus booking and smart ticket system that allows users to book seats on a bus, apply discount coupons, and confirm their bookings via phone verification. The system is designed to provide a seamless and user-friendly experience for passengers.
@@ -46,11 +47,10 @@ To set up the project locally, follow these steps:
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (for seat availability, bookings, and coupons)
-- **Phone Verification**: Twilio API for phone number verification
-- **Payment Processing**: Integration with a payment gateway (optional)
+-  HTML
+-  CSS
+-   JavaScript
+  
 
 ## Usage
 
@@ -62,4 +62,6 @@ To set up the project locally, follow these steps:
 
 Feel free to reach out if you have any questions or suggestions. Happy booking!
 <img src="./Landing Page Design.jpg" />
+
+
 
