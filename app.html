@@ -57,7 +57,7 @@
     <header class="w-11/12  lg:mx-auto ">
         <!-- Navigation Menu Content -->
         <nav class="flex justify-between items-center py-2 relative mx-auto gap-10 lg:gap-0">
-            <div class="ml-20  lg:ml-0">
+            <div class="ml-24  lg:ml-0">
                 <img width="30" src="./images/bus-logo.png" alt="" />
             </div>
             <ul class="sm:flex hidden gap-5">
@@ -115,7 +115,7 @@
             </ul>
         </nav>
         <!-- Home Banner content -->
-        <section id="banner-section" class="my-1 ml-10 lg:my-5 z-0">
+        <section id="banner-section" class="my-1 ml-5 lg:my-5 z-0">
             <!-- Slide 01 -->
             <div
                 class="bg-banner overflow-hidden h-[30vh] w-[40vh] lg:h-[75vh] lg: min-w-full bg-center bg-no-repeat bg-cover rounded-2xl relative">
@@ -161,7 +161,7 @@
             class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:w-9/12 w-11/12 ml-20 lg:ml-auto mr-40 sm:-mt-20  ">
             <!-- Card One -->
             <div
-                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] ">
+                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0 ">
                 <div>
                     <i class="fa-solid fa-users text-primary text-5xl"></i>
                 </div>
@@ -173,7 +173,7 @@
 
             <!-- Card Two -->
             <div
-                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1]">
+                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0">
                 <div>
                     <i class="fa-solid fa-ticket text-primary text-5xl"></i>
                 </div>
@@ -184,7 +184,7 @@
             </div>
             <!-- Card Three -->
             <div
-                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1]">
+                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0">
                 <div>
                     <i class="fa-solid fa-handshake text-primary text-5xl"></i>
                 </div>
@@ -196,7 +196,7 @@
         </section>
 
         <!-- Coupon Section Start -->
-        <section id="coupon-section" class="my-20 w-11/12 mx-auto">
+        <section id="coupon-section" class="my-20 ml-8 w-11/12 mx-auto">
             <!-- section heading -->
             <div id="section-heading" class="text-center">
                 <h3 class="sm:text-5xl text-4xl font-bold text-secondary capitalize ml-20 lg:ml-0">
@@ -257,7 +257,7 @@
 
             <div class="text-center">
                 <button
-                    class="ml-10 lg:mx-auto btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
+                    class="ml-20 lg:mx-auto btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
                     See All Offers
                 </button>
             </div>
@@ -596,7 +596,7 @@
                         <div class="border-b-2 my-4 border-dashed"></div>
                         <section class="font-Inter">
                             <div class="bg-[#f7f8f8] p-8 rounded-xl">
-                                <h3 class="text-lg font-semibold flex justify-between">
+                                <h3 class="text-lg font-semibold flex flex-col items-center lg:flex-row justify-between ">
                                     <p class="flex">
                                         <span>Seat</span>
                                         <span id="total-booked"
@@ -691,30 +691,29 @@
       
     </main>
 
-    <footer class="bg-secondary text-white">
-        <div class="w-11/12 mx-auto py-20">
+    <footer class="bg-secondary text-white w-[44vh] lg:min-w-full">
+        <div class="max-w-full mx-auto py-20 px-4"> <!-- Changed to full width and added padding -->
             <div class="flex sm:flex-row flex-col sm:gap-0 gap-5 justify-between items-center">
                 <div class="text-center sm:text-left">
-                    <div class="flex sm:justify-start justify-center items-center text-3xl font-semibold capitalize">
+                    <div class="flex sm:justify-start justify-center items-center text-3xl font-semibold capitalize mr-10 lg:mr-0">
                         <img width="50" src="./assets/favicon.png" alt="" />
                         <span>Dublin Bus</span>
                     </div>
-                    <p class="font-Inter text-white/80 text-sm">
+                    <p class="font-Inter text-white/80 text-sm sm:text-left text-center">
                         Dublin Bus is a digital platform to make your <br />
                         daily commuting better.
                     </p>
                 </div>
-                <div class="text-center">
-                    <h3 class="mb-2">Download our app</h3>
-                    <img src="./assets/google.png" alt="" />
+                <div class="text-center  flex flex-col lg:flex-row gap-10 items-center ">
+                    <h3 class="mb-1">Download our app</h3>
+                    <img src="./images/playstore.png" alt="" />
                 </div>
             </div>
             <div class="border-b-[1px] mt-10 border-dashed border-white/50"></div>
             <div class="mt-10 font-Inter flex sm:flex-row flex-col-reverse justify-between text-white/80">
-                <p class="text-center sm:text-left sm:mt-0 mt-10">@All Rights Reserved. Dublin Bus Services Limited 1912
-                    - 2024
+                <p class="text-center sm:text-left sm:mt-0 mt-10">@All Rights Reserved. Dublin Bus Services Limited 1912 - 2024
                 </p>
-                <ul class="flex sm:flex-row flex-col items-center gap-5">
+                <ul class="flex sm:flex-row flex-col items-center gap-5 text-center sm:text-left">
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Return & Refund Policy</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -722,6 +721,7 @@
             </div>
         </div>
     </footer>
+    
 
     <!-- Script JS file link -->
     <script src="./app.js"></script>
