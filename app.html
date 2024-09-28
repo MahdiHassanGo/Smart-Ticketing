@@ -20,6 +20,7 @@
 
     <!-- Link: Fontawesome CDN -->
     <script src="https://kit.fontawesome.com/f811dd765f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Link: TailwindCSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -45,6 +46,11 @@
             },
         }
     </script>
+    <style>
+        .bg-banner {
+  background-image: url('./images/banner.png');
+}
+    </style>
 </head>
 <body class="font-RaleWay scroll-smooth">
     <!-- Header Section content -->
@@ -52,7 +58,7 @@
         <!-- Navigation Menu Content -->
         <nav class="flex justify-between items-center py-2 relative">
             <div>
-                <img width="150" src="./assets/logo.jpg" alt="" />
+                <img width="30" src="./images/bus-logo.png" alt="" />
             </div>
             <ul class="sm:flex hidden gap-5">
                 <li>
@@ -78,9 +84,10 @@
             </ul>
             <div class="flex items-center gap-5">
                 <button
-                    class="btn btn-primary bg-primary text-secondary border-primary hover:border-primary hover:text-primary hover:bg-transparent">
+                    class="btn btn-primary bg-white text-secondary border-primary hover:border-primary hover:text-primary hover:bg-transparent">
                     <span>Bus</span>
-                    <i class="fa-solid fa-van-shuttle"></i>
+                    <img src="./images/bus-icon.png" alt="">
+                    
                 </button>
                 <button id="menu-btn" class="sm:hidden block">
                     <i class="fa-solid fa-bars sm:hidden block text-2xl bg-primary px-3 py-2 rounded"></i>
@@ -111,7 +118,7 @@
         <section id="banner-section" class="my-5 z-0">
             <!-- Slide 01 -->
             <div
-                class="bg-[url(./assets/slide01.jpg)] overflow-hidden h-[75vh] bg-center bg-no-repeat bg-cover rounded-2xl relative">
+                class="bg-banner overflow-hidden h-[75vh] bg-center bg-no-repeat bg-cover rounded-2xl relative">
                 <div class="absolute top-0 left-0 w-full h-full bg-black/45"></div>
 
                 <div class="w-full h-full flex flex-col justify-center items-center absolute top-0 left-0 z-20">
@@ -285,12 +292,15 @@
                                 </div>
                             </div>
                             <!-- available seat section -->
-                            <div
-                                class="bg-buttonColor text-primary p-5 sm:w-auto w-11/12 text-center rounded-xl text-lg font-medium font-Inter">
-                                <i class="fa-solid fa-couch"></i>
+                             <div class="">
+                                <div 
+                                class=" flex flex-row bg-buttonColor text-primary p-5 sm:w-auto w-11/12 text-center rounded-xl text-lg font-medium font-Inter">
+                               <img  src="./images/seat-green.png" alt="">
                                 <span id="available-seat">40</span>
                                 <span>Seats</span>
                             </div>
+                             </div>
+                         
                         </div>
                         <div class="rounded-3xl bg-[#f7f8f8] p-5 mt-5">
                             <li class="list-none font-semibold flex justify-between">
@@ -318,12 +328,15 @@
                             <span
                                 class="bg-mobileMenu inline-block w-10 h-10 rounded-full absolute -bottom-5 z-10"></span>
                         </div>
-                        <div class="text-center justify-center items-center ">
-                            <i
-                                class="fa-solid fa-bangladeshi-taka-sign bg-primary text-white text-xl px-5 py-3 rounded-full"></i>
+                        <div class="flex flex-col">
+
+                        
+                        <div class="text-center justify-center items-center flex-col ">
+                            <img class="ml-5" src="./images/fare.png" alt="">
                             <h3 class="text-2xl font-extrabold text-secondary my-1">
                                 550 Taka
                             </h3>
+                        </div>
                             <p class="text-lg text-body font-semibold">Per Seat</p>
                         </div>
                     </div>
@@ -358,9 +371,10 @@
                         <div class="col-span-11 grid sm:grid-cols-10 grid-cols-5 gap-16 items-center text-center">
                             <p class="col-span-8"></p>
                             <p class="col-span-2 btn sm:static relative -top-10 -right-56">
-                                <img class="select-none" src="./assets/wheel.png" alt="" />
+                              <img width="20" src="./images/steering-wheel.png" alt="">
                             </p>
                         </div>
+                        
                         <!-- ROW 01 -->
                         <p class="sm:col-span-1 sm:block hidden">A</p>
                         <div class="col-span-11 grid sm:grid-cols-10 grid-cols-5 gap-16 items-center text-center">
