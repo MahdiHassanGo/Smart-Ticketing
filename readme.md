@@ -1,4 +1,4 @@
-##Live Server:https://mahdihassango.github.io/Smart-Ticketing/app.html
+Live Server:https://mahdihassango.github.io/Smart-Ticketing/app.html
 # Bus Booking / Smart Ticket System
 
 This is a web-based bus booking and smart ticket system that allows users to book seats on a bus, apply discount coupons, and confirm their bookings via phone verification. The system is designed to provide a seamless and user-friendly experience for passengers.
