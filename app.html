@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,8 +56,8 @@
     <!-- Header Section content -->
     <header class="w-11/12  lg:mx-auto ">
         <!-- Navigation Menu Content -->
-        <nav class="flex justify-between items-center py-2 relative mx-auto gap-10 lg:gap-0">
-            <div class="ml-24  lg:ml-0">
+        <nav class="flex justify-between items-center py-4 relative mx-auto gap-10 lg:gap-0">
+            <div class="ml-20  lg:ml-0">
                 <img width="30" src="./images/bus-logo.png" alt="" />
             </div>
             <ul class="sm:flex hidden gap-5">
@@ -83,12 +83,7 @@
                 </li>
             </ul>
             <div class="flex items-center gap-5">
-                <button
-                    class="btn btn-primary bg-white text-secondary border-primary hover:border-primary hover:text-primary hover:bg-transparent">
-                    <span>Bus</span>
-                    <img src="./images/bus-icon.png" alt="">
-                    
-                </button>
+               
                 <button id="menu-btn" class="sm:hidden block">
                     <i class="fa-solid fa-bars sm:hidden block text-2xl bg-primary px-3 py-2 rounded"></i>
                     <i id="close-icon"
@@ -115,10 +110,10 @@
             </ul>
         </nav>
         <!-- Home Banner content -->
-        <section id="banner-section" class="my-1 ml-5 lg:my-5 z-0">
+        <section id="banner-section" class="my-1 ml-9 lg:ml-0 lg:my-5 z-0">
             <!-- Slide 01 -->
             <div
-                class="bg-banner overflow-hidden h-[30vh] w-[40vh] lg:h-[75vh] lg: min-w-full bg-center bg-no-repeat bg-cover rounded-2xl relative">
+                class="bg-banner overflow-hidden h-[40vh] w-[50vh] lg:h-[75vh] lg: min-w-full bg-center bg-no-repeat bg-cover rounded-2xl relative">
                 <div class="absolute top-0 left-0 w-full h-full bg-black/45"></div>
 
                 <div class="w-full h-full flex flex-col justify-center items-center absolute top-0 left-0 z-20">
@@ -158,10 +153,10 @@
     <main class="mt-10 ">
         <!-- statistics section start -->
         <section id="statistics"
-            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:w-9/12 w-11/12 ml-20 lg:ml-auto mr-40 sm:-mt-20  ">
+            class=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:w-9/12 w-11/12  ml-20  lg:ml-40  sm:-mt-20  ">
             <!-- Card One -->
             <div
-                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0 ">
+                class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-20 lg:mr-0 ">
                 <div>
                     <i class="fa-solid fa-users text-primary text-5xl"></i>
                 </div>
@@ -196,15 +191,15 @@
         </section>
 
         <!-- Coupon Section Start -->
-        <section id="coupon-section" class="my-20 ml-8 w-11/12 mx-auto">
+        <section id="coupon-section" class="my-20 ml-10  w-11/12 mx-auto">
             <!-- section heading -->
             <div id="section-heading" class="text-center">
-                <h3 class="sm:text-5xl text-4xl font-bold text-secondary capitalize ml-20 lg:ml-0">
+                <h3 class="sm:text-5xl text-4xl font-bold text-secondary capitalize ml-10 lg:ml-0">
                     Best Offers for you
                 </h3>
             </div>
             <!-- coupon cards -->
-            <div class="grid  lg:grid-cols-2 gap-10 my-10 ml-20 lg:ml-0 ">
+            <div class="grid  lg:grid-cols-2 gap-10 my-10 ml-5 lg:ml-0 ">
                 <div
                     class="bg-couponOne px-30 py-20 lg:px-14 lg:py-10 rounded-2xl shadow-xl flex sm:flex-row flex-col justify-between items-center font-Inter relative overflow-hidden">
                     <div class="z-10">
@@ -257,7 +252,7 @@
 
             <div class="text-center">
                 <button
-                    class="ml-20 lg:mx-auto btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
+                    class="ml-10 lg:ml-0 btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
                     See All Offers
                 </button>
             </div>
@@ -265,7 +260,7 @@
 
         <!-- Services Section Start -->
          <div class="">
-            <section class="bg-mobileMenu w-[30vh] lg:min-w-full py-20 rounded-t-3xl border-t-2 border-primary  ml-20 lg:ml-0">
+            <section class="bg-mobileMenu w-[50vh] lg:min-w-full py-20 rounded-t-3xl border-t-2 border-primary  ml-5 lg:ml-0">
                 <!-- section heading -->
                 <div id="section-heading" class="text-center">
                     <h3 class="lg:text-5xl md:text-4xl text-3xl font-bold text-secondary capitalize">
@@ -279,7 +274,7 @@
                 <!-- Current available Bus Services -->
                 <section class="w-11/12 mx-auto my-10">
                     <div
-                        class="bg-white sm:px-8 px-4 py-10 rounded-2xl shadow-sm font-Inter relative overflow-hidden grid sm:grid-cols-3 sm:gap-20 gap-10 justify-center items-center">
+                        class="bg-white   w-[50vh] lg:min-w-full sm:px-8 px-4 py-10 rounded-2xl shadow-sm font-Inter relative overflow-hidden grid sm:grid-cols-3 sm:gap-20 gap-10 justify-center items-center">
                         <div class="sm:col-span-2">
                             <div
                                 class="flex sm:flex-row flex-col justify-center sm:justify-between items-center sm:gap-0 gap-10">
@@ -346,7 +341,7 @@
                 </section>
     
                 <!-- seat booking section -->
-                <section class="bg-white px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm sm:grid sm:grid-cols-3 gap-5">
+                <section class="bg-white w-[50vh] lg:min-w-full px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm sm:grid sm:grid-cols-3 gap-5">
                     <div
                         class="sm:col-span-2  lg:border-r-2 md:border-r-2 border-none  lg:border-dashed border-[#0307124d]">
                         <div class="sm:mr-5 ">
@@ -691,8 +686,8 @@
       
     </main>
 
-    <footer class="bg-secondary text-white w-[44vh] lg:min-w-full">
-        <div class="max-w-full mx-auto py-20 px-4"> <!-- Changed to full width and added padding -->
+    <footer class="bg-secondary text-white  w-[55vh] lg:min-w-full">
+        <div class="w-[44vh]  lg:min-w-full  mx-auto py-20 px-4"> <!-- Changed to full width and added padding -->
             <div class="flex sm:flex-row flex-col sm:gap-0 gap-5 justify-between items-center">
                 <div class="text-center sm:text-left">
                     <div class="flex sm:justify-start justify-center items-center text-3xl font-semibold capitalize mr-10 lg:mr-0">
