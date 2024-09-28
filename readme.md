@@ -61,5 +61,5 @@ To set up the project locally, follow these steps:
 
 
 Feel free to reach out if you have any questions or suggestions. Happy booking!
-<img src=".Landing Page Design.jpg"/>
+<img src="./Landing Page Design.jpg" />
 
