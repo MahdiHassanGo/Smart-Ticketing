@@ -7,17 +7,15 @@ This is a web-based bus booking and smart ticket system that allows users to boo
 
 - **Seat Booking**: Users can book up to 4 seats at a time for any available bus route.
 - **Coupon System**: Users can apply coupons provided on the website for discounts on their bookings.
-- **Phone Number Verification**: Once a booking is made, the user must confirm their booking via their phone number.
-- **Real-Time Availability**: The system displays available seats in real-time, ensuring users have up-to-date information.
 - **Responsive Design**: The system is designed to work on various devices, providing a smooth experience across desktops, tablets, and mobile phones.
 
 ## How It Works
 
-1. **Choose Your Route**: Select your desired bus route and time from the available options.
-2. **Select Seats**: You can select up to 4 seats per booking.
-3. **Apply Coupon**: If you have a coupon code, apply it to receive a discount on the booking price.
-4. **Confirm Booking**: Enter your phone number and confirm your booking. A verification code will be sent to your phone, which you must enter to finalize the booking.
-5. **Receive Ticket**: Once confirmed, your booking will be finalized, and you will receive your e-ticket.
+
+1. **Select Seats**: You can select up to 4 seats per booking.
+2. **Apply Coupon**: If you have a coupon code, apply it to receive a discount on the booking price.
+3. **Confirm Booking**: Enter your phone number and confirm your booking. A verification code will be sent to your phone, which you must enter to finalize the booking.
+4. **Receive Ticket**: Once confirmed, your booking will be finalized, and you will receive your e-ticket.
 
 ## Installation
 
