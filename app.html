@@ -52,12 +52,12 @@
 }
     </style>
 </head>
-<body class="font-RaleWay scroll-smooth ">
+<body class="font-RaleWay scroll-smooth max-w-full ">
     <!-- Header Section content -->
     <header class="w-11/12  lg:mx-auto ">
         <!-- Navigation Menu Content -->
         <nav class="flex justify-between items-center py-4 relative mx-auto gap-10 lg:gap-0">
-            <div class="ml-20  lg:ml-0">
+            <div class="mx-4 lg:ml-0">
                 <img width="30" src="./images/bus-logo.png" alt="" />
             </div>
             <ul class="sm:flex hidden gap-5">
@@ -110,10 +110,10 @@
             </ul>
         </nav>
         <!-- Home Banner content -->
-        <section id="banner-section" class="my-1 ml-9 lg:ml-0 lg:my-5 z-0">
+        <section id="banner-section" class="my-1 ml-2 lg:ml-0 lg:my-5 z-0">
             <!-- Slide 01 -->
             <div
-                class="bg-banner overflow-hidden h-[40vh] w-[50vh] lg:h-[75vh] lg: min-w-full bg-center bg-no-repeat bg-cover rounded-2xl relative">
+                class="bg-banner overflow-hidden h-[40vh] w-[30vh] lg:h-[75vh] lg: min-w-full bg-center bg-no-repeat bg-cover rounded-2xl relative">
                 <div class="absolute top-0 left-0 w-full h-full bg-black/45"></div>
 
                 <div class="w-full h-full flex flex-col justify-center items-center absolute top-0 left-0 z-20">
@@ -153,7 +153,7 @@
     <main class="mt-10 ">
         <!-- statistics section start -->
         <section id="statistics"
-            class=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:w-9/12 w-11/12  ml-20  lg:ml-40  sm:-mt-20  ">
+            class=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:w-9/12 w-11/12  ml-10  lg:ml-40  sm:-mt-20  ">
             <!-- Card One -->
             <div
                 class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-20 lg:mr-0 ">
@@ -191,15 +191,15 @@
         </section>
 
         <!-- Coupon Section Start -->
-        <section id="coupon-section" class="my-20 ml-10  w-11/12 mx-auto">
+        <section id="coupon-section" class="my-20 ml-2  w-11/12 mx-auto">
             <!-- section heading -->
             <div id="section-heading" class="text-center">
-                <h3 class="sm:text-5xl text-4xl font-bold text-secondary capitalize ml-10 lg:ml-0">
+                <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary capitalize mx-auto">
                     Best Offers for you
                 </h3>
             </div>
             <!-- coupon cards -->
-            <div class="grid  lg:grid-cols-2 gap-10 my-10 ml-5 lg:ml-0 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 mx-auto ">
                 <div
                     class="bg-couponOne px-30 py-20 lg:px-14 lg:py-10 rounded-2xl shadow-xl flex sm:flex-row flex-col justify-between items-center font-Inter relative overflow-hidden">
                     <div class="z-10">
@@ -260,7 +260,7 @@
 
         <!-- Services Section Start -->
          <div class="">
-            <section class="bg-mobileMenu w-[50vh] lg:min-w-full py-20 rounded-t-3xl border-t-2 border-primary  ml-5 lg:ml-0">
+            <section class="bg-mobileMenu w-full lg:min-w-full py-20 rounded-t-3xl border-t-2 border-primary mx-auto">
                 <!-- section heading -->
                 <div id="section-heading" class="text-center">
                     <h3 class="lg:text-5xl md:text-4xl text-3xl font-bold text-secondary capitalize">
@@ -274,7 +274,7 @@
                 <!-- Current available Bus Services -->
                 <section class="w-11/12 mx-auto my-10">
                     <div
-                        class="bg-white   w-[50vh] lg:min-w-full sm:px-8 px-4 py-10 rounded-2xl shadow-sm font-Inter relative overflow-hidden grid sm:grid-cols-3 sm:gap-20 gap-10 justify-center items-center">
+                        class="bg-white w-full lg:min-w-full sm:px-8 px-4 py-10 rounded-2xl shadow-sm font-Inter relative overflow-hidden grid grid-cols-1 sm:grid-cols-3 sm:gap-20 gap-10 justify-center items-center">
                         <div class="sm:col-span-2">
                             <div
                                 class="flex sm:flex-row flex-col justify-center sm:justify-between items-center sm:gap-0 gap-10">
@@ -318,7 +318,7 @@
                             </div>
                         </div>
                         <div class="flex sm:justify-evenly justify-center text-center items-center col-span-1">
-                            <div class="sm:flex hidden flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="flex flex-col items-center justify-between h-full overflow-hidden sm:hidden lg:flex">
                                 <span class="bg-mobileMenu inline-block w-10 h-10 rounded-full absolute -top-5 z-20"></span>
                                 <span
                                     class="border-primary border-dashed inline-block border-r-2 h-full absolute top-0"></span>
@@ -686,8 +686,8 @@
       
     </main>
 
-    <footer class="bg-secondary text-white  w-[55vh] lg:min-w-full">
-        <div class="w-[44vh]  lg:min-w-full  mx-auto py-20 px-4"> <!-- Changed to full width and added padding -->
+    <footer class="bg-secondary text-white w-full">
+        <div class=" w-full mx-auto py-10 px-4 sm:py-20"> <!-- Changed to full width and added padding -->
             <div class="flex sm:flex-row flex-col sm:gap-0 gap-5 justify-between items-center">
                 <div class="text-center sm:text-left">
                     <div class="flex sm:justify-start justify-center items-center text-3xl font-semibold capitalize mr-10 lg:mr-0">
