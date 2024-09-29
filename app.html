@@ -48,6 +48,12 @@
     <title>Dublin Bus - Online Bus Ticket Booking With DOM Manipulation</title>
     <!-- ... (keep your existing head content) ... -->
     <style>
+   
+   * {
+    border: none !important;
+    outline: none !important;
+}
+
         body {
             overflow-x: hidden; /* Prevent horizontal scrolling */
         }
@@ -181,10 +187,10 @@
 
     <main class="mt-10">
         <!-- statistics section start -->
-        <section id="statistics" class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 -mt-20">
+        <section id="statistics" class="container ml-15 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 -mt-20">
            <!-- Card One -->
            <div
-           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-20 lg:mr-0 ">
+           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1]  lg:mr-0 ">
            <div>
                <i class="fa-solid fa-users text-primary text-5xl"></i>
            </div>
@@ -196,7 +202,7 @@
 
        <!-- Card Two -->
        <div
-           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0">
+           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1]  lg:mr-0">
            <div>
                <i class="fa-solid fa-ticket text-primary text-5xl"></i>
            </div>
@@ -207,7 +213,7 @@
        </div>
        <!-- Card Three -->
        <div
-           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1] mr-10 lg:mr-0">
+           class="flex items-center gap-6 border-b-2 border-primary px-10 py-8 rounded-3xl shadow-lg bg-white z-[1]  lg:mr-0">
            <div>
                <i class="fa-solid fa-handshake text-primary text-5xl"></i>
            </div>
@@ -280,7 +286,7 @@
 
         <div class="text-center">
             <button
-                class="ml-10 lg:ml-0 btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
+                class="ml-2 lg:ml-0 btn btn-primary bg-transparent px-10 hover:bg-primary hover:text-secondary border-primary hover:border-primary text-primary font-bold">
                 See All Offers
             </button>
         </div>
@@ -345,12 +351,7 @@
                     </div>
                     <div class="flex sm:justify-evenly justify-center text-center items-center col-span-1">
                         <div class="flex flex-col items-center justify-between h-full overflow-hidden sm:hidden lg:flex">
-                            <span class="bg-mobileMenu inline-block w-10 h-10 rounded-full absolute -top-5 z-20"></span>
-                            <span
-                                class="border-primary border-dashed inline-block border-r-2 h-full absolute top-0"></span>
-                            <span
-                                class="bg-mobileMenu inline-block w-10 h-10 rounded-full absolute -bottom-5 z-10"></span>
-                        </div>
+                            </div>
                         <div class="flex flex-col">
 
                         
@@ -366,7 +367,7 @@
                 </div>
                 
                 </section>
-            </div>\
+            </div>
 
             
             <section class="bg-white w-full px-4 sm:px-8 py-5 mx-auto rounded-2xl shadow-sm grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
