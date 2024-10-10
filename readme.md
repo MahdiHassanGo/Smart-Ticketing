@@ -17,31 +17,6 @@ This is a web-based bus booking and smart ticket system that allows users to boo
 3. **Confirm Booking**: Enter your phone number and confirm your booking. A verification code will be sent to your phone, which you must enter to finalize the booking.
 4. **Receive Ticket**: Once confirmed, your booking will be finalized, and you will receive your e-ticket.
 
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/bus-booking-system.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd bus-booking-system
-    ```
-
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-4. Start the development server:
-    ```bash
-    npm start
-    ```
-
-5. Open your browser and go to `http://localhost:3000` to access the application.
 
 ## Technologies Used
 
